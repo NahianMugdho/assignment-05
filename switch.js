@@ -4,6 +4,6 @@
 
 getinput('home-btn').addEventListener('click',function(){
 
-    window.location.href = '/index.html';
+    window.location.href = 'https://nahianmugdho.github.io/assignment-05/index.html';
   
   })

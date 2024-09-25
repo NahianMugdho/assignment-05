@@ -15,14 +15,15 @@ else{
     const div = document.createElement('div')
     div.innerHTML = `
     <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle" open>
-      <div class="modal-box bg-white ">
+      <div class="modal-box bg-white flex flex-col items-center justify-center text-center">
       <div>
         <h3 class="text-lg font-bold text-black">Congrats!</h3>
-        <img src= "coin.png"> <img>
+        <div class="flex items-center justify-center">
+        <img src= "coin.png"> <img></div>
         <p class="py-4">You have donated for humankind .</p>
         <p class = "font-bold" > successfully </p>
        </div>
-        <div class="modal-action">
+        <div class="modal-action flex justify-center">
           <form method="dialog">
             <button class="btn bg-slate-100">Close Confirmation</button>
           </form>
@@ -71,14 +72,15 @@ else{
     const div = document.createElement('div')
     div.innerHTML = `
     <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle" open>
-      <div class="modal-box bg-white ">
+      <div class="modal-box bg-white flex flex-col items-center justify-center text-center">
       <div>
         <h3 class="text-lg font-bold text-black">Congrats!</h3>
-        <img src= "coin.png"> <img>
+        <div class="flex items-center justify-center">
+        <img src= "coin.png"> <img></div>
         <p class="py-4">You have donated for humankind .</p>
         <p class = "font-bold" > successfully </p>
        </div>
-        <div class="modal-action">
+        <div class="modal-action flex justify-center">
           <form method="dialog">
             <button class="btn bg-slate-100">Close Confirmation</button>
           </form>
@@ -127,14 +129,15 @@ else{
     const div = document.createElement('div')
     div.innerHTML = `
     <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle" open>
-      <div class="modal-box bg-white ">
+      <div class="modal-box bg-white flex flex-col items-center justify-center text-center">
       <div>
         <h3 class="text-lg font-bold text-black">Congrats!</h3>
-        <img src= "coin.png"> <img>
+        <div class="flex items-center justify-center">
+        <img src= "coin.png"> <img></div>
         <p class="py-4">You have donated for humankind .</p>
         <p class = "font-bold" > successfully </p>
        </div>
-        <div class="modal-action">
+        <div class="modal-action flex justify-center">
           <form method="dialog">
             <button class="btn bg-slate-100">Close Confirmation</button>
           </form>

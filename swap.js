@@ -16,7 +16,7 @@ document.getElementById('bt-2').addEventListener('click',function(){
     
         getclass('cards').remove('hidden')
 
-       getclass('bt-1').remove('bg-slate-300');
+        getclass('bt-1').remove('bg-slate-300');
         document.getElementById('bt-1').classList.add('bg-[#B4F461]');
         document.getElementById('bt-2').classList.remove('bg-[#B4F461]');
         document.getElementById('bt-2').classList.add(' bg-slate-300 ');

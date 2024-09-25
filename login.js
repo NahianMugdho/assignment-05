@@ -4,7 +4,7 @@ const y1 = parseFloat(getinput('nd').value)
 const w1 = parseFloat( getinput('ndx').innerText)
 const t = parseFloat( getinput('total').innerText)
 const new_t = t - y1;
-if(y1 <= 0 || isNaN(y1) || new_t <= 0 ){
+if(y1 <= 0 || isNaN(y1) || new_t < 0 ){
     alert("wrong Input or the balance is insufficient")
 }
 else{
@@ -61,7 +61,7 @@ const y1 = parseFloat(getinput('fd').value)
 const w1 = parseFloat( getinput('fdx').innerText)
 const t = parseFloat( getinput('total').innerText)
 const new_t = t - y1;
-if(y1 <= 0 || isNaN(y1) || new_t <= 0 ){
+if(y1 <= 0 || isNaN(y1) || new_t < 0 ){
     alert("wrong Input or the balance is insufficient")
 }
 else{
@@ -118,7 +118,7 @@ const y1 = parseFloat(getinput('qd').value)
 const w1 = parseFloat( getinput('qdx').innerText)
 const t = parseFloat( getinput('total').innerText)
 const new_t = t - y1;
-if(y1 <= 0 || isNaN(y1) || new_t <= 0 ){
+if(y1 <= 0 || isNaN(y1) || new_t < 0 ){
     alert("wrong Input or the balance is insufficient")
 }
 else{

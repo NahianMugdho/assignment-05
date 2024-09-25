@@ -166,7 +166,7 @@ document.getElementById('history').appendChild(div2)
 })
 document.getElementById('blog-btn').addEventListener('click',function(){
 
-  window.location.href = '/faq.html';
+  window.location.href = './faq.html';
 
 })
 

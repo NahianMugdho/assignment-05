@@ -160,6 +160,10 @@ div2.innerHTML = `
 document.getElementById('history').appendChild(div2)
 }
 
+})
+document.getElementById('blog-btn').addEventListener('click',function(){
 
+  window.location.href = '/faq.html';
 
 })
+
